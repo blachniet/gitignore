@@ -10,6 +10,9 @@ TestResults
 *.user
 *.sln.docstates
 
+# Not including packages folder b/c NuGet Package Restore rocks!
+[Pp]ackages/
+
 # Build results
 # [Dd]ebug/
 # [Rr]elease/
